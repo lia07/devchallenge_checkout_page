@@ -348,10 +348,6 @@ input[type=checkbox] {
     font-weight: 600;
 }
 
-.footer__link {
-    color: inherit;
-    font-weight: 700;
-}
 
 /* Botón de la alerta cuando se envían exitosamente los datos del formulario */
 .swal2-confirm.swal2-styled {
