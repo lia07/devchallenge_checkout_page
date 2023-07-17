@@ -6,14 +6,14 @@
 /*globals*/
 
 :root{
-    --title-color: #4E5150;
-    --color1: #333333;
-    --color2: #4F4F4F;
-    --color3: #828282;
-    --color4: #E0E0E0;
-    --color5: #F2F2F2;
-    --color-footer: #BDBDBD;
-    --orange1: #F2994A;
+    --title-gray: #4E5150;
+    --gray-1: #333333;
+    --gray-2: #4F4F4F;
+    --gray-3: #828282;
+    --gray-5: #E0E0E0;
+    --gray-6: #F2F2F2;
+    --gray-footer: #BDBDBD;
+    --orange-1: #F2994A;
     --montserrat: 'Montserrat', sans-serif;
 }
 
@@ -27,10 +27,11 @@ body{
     font-family: var(--montserrat);
 }
 
-#mail{
+#main {
     max-width: 1000px;
     margin: 0 auto;
 }
+
 
 h1 {
     font-weight: 600;
@@ -182,9 +183,7 @@ input[type=number] {
     margin-bottom: .65rem;
 }
 
-
-/*start form*/
-
+/* start form */
 .form {
     font-weight: 600;
     margin: 3.25rem 0 6.1rem;
@@ -341,7 +340,7 @@ input[type=checkbox] {
     border: 2px solid var(--orange-1);
 }
 
-
+/* Footer */
 .footer {
     text-align: center;
     font-size: .875rem;
@@ -360,8 +359,7 @@ input[type=checkbox] {
     font-family: var(--montserrat);
 }
 
-
-/* media queries */
+/* MEDIA QUERIES */
 
 @media only screen and (max-width: 300px) {
     .container-address-country {
